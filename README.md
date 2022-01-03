@@ -2,13 +2,7 @@
 
 ## Installation
 
-Clone this repo and npm install.
-
-```bash
-npm i
-```
-
-or
+Clone this repo and yarn install.
 
 ```bash
 yarn
@@ -19,7 +13,7 @@ yarn
 ### Development server
 
 ```bash
-npm start
+yarn start
 ```
 
 You can view the development server at `localhost:8080`.
@@ -27,13 +21,19 @@ You can view the development server at `localhost:8080`.
 ### Production build
 
 ```bash
-npm run build
+yarn build
+```
+
+### build and deploy to github pages
+
+```bash
+yarn deploy
 ```
 
 > Note: Install [http-server](https://www.npmjs.com/package/http-server) globally to deploy a simple server.
 
 ```bash
-npm i -g http-server
+yarn add --global http-server
 ```
 
 You can view the deploy by creating a server in `dist`.
@@ -89,11 +89,3 @@ cd dist && http-server
 - [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) - Implement prettier rules
   - - [`prettier`](https://github.com/prettier/prettier) - Dependency for `prettier-webpack-plugin` plugin
 - [`eslint-import-resolver-webpack`](https://github.com/benmosher/eslint-plugin-import/tree/master/resolvers/webpack) - Throw exceptions for import/export in webpack
-
-## Author
-
-- [Tania Rascia](https://www.taniarascia.com)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
