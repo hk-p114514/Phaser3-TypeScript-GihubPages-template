@@ -1,8 +1,4 @@
-# 📦 webpack Boilerplate
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-Sensible webpack 5 boilerplate using Babel, PostCSS and Sass.
+# Phaser3, TypeScript, webpack, Github pages template
 
 ## Installation
 
@@ -10,6 +6,12 @@ Clone this repo and npm install.
 
 ```bash
 npm i
+```
+
+or
+
+```bash
+yarn
 ```
 
 ## Usage
